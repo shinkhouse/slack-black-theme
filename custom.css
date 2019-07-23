@@ -169,6 +169,17 @@ li.active[class] span,
    opacity: 1;
 }
 
+/* Message panel */
+.c-message--light .c-message__sender .c-message__sender_link {
+    color: var(--text-special);
+}
+.p-client {
+    background: var(--background-elevated);
+    color: var(--text);
+}
+.c-message__body {
+    color: var(--text);   
+}
 /*"more unreads" bottom*/
 .p-channel_sidebar__banner--top {
    background-color: var(--background);
@@ -202,7 +213,6 @@ li.active[class] span,
 /* new scrollbar */
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
   background: var(--background-elevated);
-  border: 1px solid var(--scrollbar-border);
 }
 
 #channels_scroller.show_which_channel_is_active[class] li.active .presence.active i.presence_icon,
