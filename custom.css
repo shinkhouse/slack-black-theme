@@ -173,8 +173,8 @@ li.active[class] span,
 .c-message--light .c-message__sender .c-message__sender_link {
     color: var(--text-special);
 }
-.p-classic_nav {
- background: var(--background-bright);   
+.p-classic_nav, .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+ background: var(--background);   
 }
 .p-classic_nav__right__search {
     border: 1px solid var(--text);
@@ -192,8 +192,8 @@ li.active[class] span,
 .p-classic_nav__right__search__placeholder {
     color: var(--text);
 }
-.p-client {
-    background: var(--background-elevated);
+.p-client, .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
+    background: var(--background);
     color: var(--text);
 }
 .p-classic_nav__model__title__info {
